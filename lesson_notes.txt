@@ -1,0 +1,20 @@
+Git commands:
+
+git log - show list of commits in the current project directory.
+	'q' - to exit git log output.
+git log --stat - will show the files changed in each commit and summary of the number of changes.
+git diff commit#1 commit#2 - show differences between these versions.
+git config --global color.ui auto - set colored diff output.
+git config --global core.editor "'C:/Program\ Files/Sublime\ Text\ 3/sublime_text.exe' -n -w" -set editor for diff file links.
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
+
+git init -start a new repository with .git directory and no history.
+git add filename1.txt -adds filename1.txt to staging for next commit.
+git commit -m 'message about current commit' -creates new commit snapshot using staged files.
+git status -identifies current staged files and untracked
+
+cd~ to go to home directory.
+mv - to move files to current directory
+
+commit sizes- keep them at logical break points. And not too big.
