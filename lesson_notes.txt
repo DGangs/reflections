@@ -35,7 +35,14 @@ git branch -d branchname -delete referenced branch.
 git merge --abort -restore files to state before attempted merge.
 
 git remote -list remote repositories setup.
-git remote add remote-name remote-url -add remote repository.
+git remote add remote_name remote_url -add remote repository.
+git remote -v -verbose command to show urls of remotes as well.
+git push remote_name branch_name -push changes to remote repository.
+git pull remote_name branch_name_on_remote -pull changes to local repository.
+
+git clone remote_url.git -creates local repository clone with remote setup to the origin.
+git fetch remote_name -updates local copy of remote repository as separate branch.
+git pull remote_name branch_remote_name = git fetch remote_name + git merge local_branch_name remote/branch
 
 cd~ to go to home directory.
 mv - to move files to current directory
